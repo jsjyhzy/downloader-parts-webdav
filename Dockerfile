@@ -4,6 +4,8 @@ WORKDIR /wsgidav
 
 EXPOSE 80
 
+VOLUME [ "/data", "/config" ]
+
 RUN apt-get update &&\
     apt-get install gettext-base &&\
     pip install wsgidav cheroot
