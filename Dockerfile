@@ -8,7 +8,7 @@ RUN apt-get update &&\
     apt-get install gettext-base &&\
     pip install wsgidav cheroot
 
-COPY ./wsgidav.ymal.template .
+COPY ./wsgidav.yaml.template .
 
 COPY ./startup.sh .
 
