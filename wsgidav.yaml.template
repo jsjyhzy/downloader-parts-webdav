@@ -95,7 +95,7 @@ mount_path: null
 #:     <mount_path>: { "provider": <class_path>, "args": [<pos-args>, ...] }
 
 provider_mapping:
-    "/": "./"
+    "/webdav": "/data"
 
 
 # ==============================================================================
