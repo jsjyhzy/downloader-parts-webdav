@@ -8,7 +8,7 @@ VOLUME [ "/data", "/config" ]
 
 RUN apt-get update &&\
     apt-get install gettext-base -y &&\
-    pip install wsgidav cheroot
+    pip install wsgidav cheroot lxml
 
 COPY ./wsgidav.yaml.template .
 
